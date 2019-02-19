@@ -54,3 +54,38 @@ float:left;
 .header .nav a:hover {
 text-decoration: underline;
  }
+
+ /* main
+ -------------------------------------------------------- */
+ .main .container {
+     display: flex;
+     border-left: 1px solid #ebebeb;
+     border-right: 1px solid #ebebeb;
+ }
+ .main aside {
+     width: 20%;
+ }
+ .main aside a {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid;
+}
+ .main section {
+     width: 80%;
+     padding: 20px;
+ }
+.card {
+    display: flex;
+}
+.card figure {
+width: 50%;
+}
+
+.card image {
+width:100%;
+}
+
+.card div
+ {
+     padding: 15px;
+ }
