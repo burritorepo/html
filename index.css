@@ -23,10 +23,7 @@ a {
     max-width: 960px;
     margin: auto;
 }
-.header .container {
-    clear:both;
-    overflow:hidden;
-}
+
 .header {
     background: red;
     color: white;
@@ -35,25 +32,16 @@ a {
 .header a {
     color: white;
 }
-.header .header-logo {
-float:left;
-}
-.header .nav,
-.header .header-logo {
-    margin: 19px 0 0 0;
-    }
-.header .nav {
-    float: right;
-}
 
-.header .nav li {
-    display: inline-block;
-    margin: 0 0 0 30px;
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
 }
-
-.header .nav a:hover {
-text-decoration: underline;
- }
+.hor {
+    display:inline-block;
+}
 
  /* main
  -------------------------------------------------------- */
@@ -69,6 +57,8 @@ text-decoration: underline;
     display: block;
     padding: 10px;
     border-bottom: 1px solid;
+    border-left: 1px solid #ebebeb;
+    border-right: 1px solid #ebebeb;
 }
  .main section {
      width: 80%;
